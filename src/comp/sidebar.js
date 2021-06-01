@@ -1,4 +1,3 @@
-import 'antd/dist/antd.css';
 import '../App.css';
 import {sidebardt} from './sidebardt';
 
@@ -14,7 +13,7 @@ function Sidebar() {
                   <div id="title">{val.title}</div>
                 </li>
               )
-            })}</ul>
+            })}</ul>  
       </div>
     );
   }
